@@ -1,329 +1,320 @@
 /**************** Reset *************************/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /**************** Main Styling ******************/
-html,body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7em;
-    background-color: #999;
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  background-color: #999;
 }
 
 a {
-    color: #333;
-    text-decoration: none;
+  color: #333;
+  text-decoration: none;
 }
 
-h1,h2,h3 {
-    padding-bottom: 20px;
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
 }
 
 p {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 /****************** Utilities ********************/
 .container {
-    margin: auto;
-    overflow: auto;
-    max-width: 1110px;
-    padding: 0 10px;
+  margin: auto;
+  overflow: auto;
+  max-width: 1110px;
+  padding: 0 10px;
 }
 
 .text-primary {
-    color: #eb831c;
+  color: #eb831c;
 }
 
 .lead {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .btn {
-    display: inline-block;
-    font-size: 15px;
-    color: #fff;
-    background: #333;
-    padding: 13px 20px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
-    background: #f7c08a;
-    color: #333;
-    font-size: 18px;
-    font-weight: 570;
+  background: #f7c08a;
+  color: #333;
+  font-size: 18px;
+  font-weight: 570;
 }
 
 .btn-light {
-    background:#f4f4f4;
-    color: #333;
-
+  background: #f4f4f4;
+  color: #333;
 }
 
 .bg-light {
-    background: #ffffff;
-    color: #333;
+  background: #ffffff;
+  color: #333;
 }
 
 .bg-light:hover {
-    background: #f4f4f4;
-    box-shadow: 10px 12px 20px #333;
+  background: #f4f4f4;
+  box-shadow: 10px 12px 20px #333;
 }
 
 .bg-primary {
-    background: #333;
-    color: #fff;
+  background: #333;
+  color: #fff;
 }
 
 .bg-primary:hover {
-    background: #666;
-    box-shadow: 10px 12px 20px #333;
+  background: #666;
+  box-shadow: 10px 12px 20px #333;
 }
 
 .bg-secondary {
-    background: #f7c08a;
+  background: #f7c08a;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 /***************** Padding ***********************/
-.py-1 {padding: 10px 0;}
-.py-2 {padding: 20px 0;}
-.py-3 {padding: 40px 0;}
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 40px 0;
+}
 
-.px-1 {padding: 0 10px;}
-.px-2 {padding: 0 20px;}
-.px-3 {padding: 0 40px;}
-
+.px-1 {
+  padding: 0 10px;
+}
+.px-2 {
+  padding: 0 20px;
+}
+.px-3 {
+  padding: 0 40px;
+}
 
 /****************** Navbar styling ***************/
 #navbar {
-    background: #333;
-    overflow: auto;
-    display: fixed;
+  background: #333;
+  overflow: auto;
+  display: fixed;
 }
 
 #navbar a {
-    color: #fff;
+  color: #fff;
 }
 
 #navbar h1 {
-    float: left;
-    padding-top: 20px;
+  float: left;
+  padding-top: 20px;
 }
 
-#navbar ul   {
-    list-style: none;
-    float: right;
-
+#navbar ul {
+  list-style: none;
+  float: right;
 }
 
 #navbar ul li {
-    float: left;
+  float: left;
 }
 
 #navbar ul li a {
-    display: block;
-    padding: 20px;
-    text-align: center;
+  display: block;
+  padding: 20px;
+  text-align: center;
 }
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
-    background: #444;
-    color: #f7c08a;
+  background: #444;
+  color: #f7c08a;
 }
 
 /******************* Showcase ********************/
 #showcase {
-    background: url(../sources/img1.jpg) no-repeat center center/cover;
-    height: 600px;
-    filter: grayscale(20%);
+  background: url(../sources/img1.jpg) no-repeat center center/cover;
+  height: 600px;
+  filter: grayscale(20%);
 }
 
 #showcase .showcase-content {
-    color: #fff;
-    text-align: center;
-    padding-top: 170px;
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
 }
 
-
-
 #showcase .showcase-content h1 {
-    font-size: 60px;
-    color: #e7d7c6;
-    line-height: 1.2em;
-    text-shadow: 10px 15px 20px #222;
-    font-weight: 750;
+  font-size: 60px;
+  color: #e7d7c6;
+  line-height: 1.2em;
+  text-shadow: 10px 15px 20px #222;
+  font-weight: 750;
 }
 
 #showcase .showcase-content p {
-    padding-bottom: 20px;
-    line-height: 1.7em;
+  padding-bottom: 20px;
+  line-height: 1.7em;
 }
 
 /****************** Home Info **********************/
 #home-info {
-    height: 430px;
-    clip-path: polygon(0 0, 100% 0, 100% 83%, 0 98%);
-    background-color: #f7c08a;
+  height: 430px;
+  clip-path: polygon(0 0, 100% 0, 100% 83%, 0 98%);
+  background-color: #f7c08a;
 }
 
 #home-info .info-img {
-    float: left;
-    width: 50%;
-    background: url(../sources/img2.jpg) no-repeat center center/cover;
-    min-height: 100%;
+  float: left;
+  width: 50%;
+  background: url(../sources/img2.jpg) no-repeat center center/cover;
+  min-height: 100%;
 }
 
 #home-info .info-content {
-    float: right;
-    width: 50%;
-    height: 100%;
-    text-align: center;
-    overflow: hidden;
-    padding: 50px 20px;
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding: 50px 20px;
 }
 
 /********************* Features ***********************/
 .box {
-    float: left;
-    width: 31.44%;
-    padding: 50px;
-    margin: 10px;
-    text-align: center;
-    margin-bottom: 30px;
-    transition: all 0.8s;
+  float: left;
+  width: 31.44%;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: all 0.8s;
 }
 
 .box:hover {
-    transform:scale(1.03);
+  transform: scale(1.03);
 }
 .box i {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /******************** About ****************/
 #about-info .info-left {
-    float: left;
-    text-align: center;
-    width: 40%;
-    min-height: 100%;
+  float: left;
+  text-align: center;
+  width: 40%;
+  min-height: 100%;
 }
 
 #about-info .info-right img {
-    display: block;
-    margin: auto;
-    width: 60%;
-    border-radius: 50%;
-    max-height: 300px;
+  display: block;
+  margin: auto;
+  width: 60%;
+  border-radius: 50%;
+  max-height: 300px;
 }
 
 #about-info .container .info-right img:hover {
-    box-shadow: 12px 15px 20px #333;
-    overflow:hidden;
+  box-shadow: 12px 15px 20px #333;
+  overflow: hidden;
 }
 
 #about-info .info-right {
-    float: right;
-    text-align: center;
-    width: 50%;
-    min-height: 100%;
+  float: right;
+  text-align: center;
+  width: 50%;
+  min-height: 100%;
 }
-
 
 /********************* Testimonials ************/
 
 #testimonials {
-    background: url(../sources/img4.jpg) no-repeat center center/cover;
-    overflow: hidden;
-    height: 600px;
-    padding-top: 40px;
+  background: url(../sources/img4.jpg) no-repeat center center/cover;
+  overflow: hidden;
+  height: 600px;
+  padding-top: 40px;
 }
 
-#testimonials  .testimonial img {
-    float: left;
-    width: 100px;
-    margin-right: 20px;
-    border-radius: 40%;
+#testimonials .testimonial img {
+  float: left;
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 40%;
 }
-
-
 
 #testimonials h2 {
-    color: #fff;
-    text-align: center;
-    padding-bottom: 40px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 #testimonials .testimonial {
-    padding: 20px;
-    margin-bottom: 40px;
-    border-radius:8px;
-    opacity: 0.9;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  opacity: 0.9;
 }
 
 /******************* Contact *************************/
 #contact-form .form-group {
-    margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 
 #contact-form input,
 #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px #ddd solid;
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
 }
 
 #contact-form textarea {
-    height: 200px;
+  height: 200px;
 }
 
 #contact-form input:focus,
 #contact-form textarea:focus {
-    outline: none;
-    border-color:#f7c08a;
+  outline: none;
+  border-color: #f7c08a;
 }
-
 
 /******************* Footer **************************/
 .clear {
-    clear: both;
+  clear: both;
 }
 
 #main-footer {
-    clip-path: polygon(0 0, 100% 28%, 100% 100%, 0 100%);
-    text-align: center;
-    background: #444;
-    padding:50px;
-    color: #fff;
-    
+  clip-path: polygon(0 0, 100% 28%, 100% 100%, 0 100%);
+  text-align: center;
+  background: #444;
+  padding: 50px;
+  color: #fff;
 }
 
 #secondary-footer {
-    text-align: center;
-    background: #444;
-    padding:50px;
-    color: #fff;
-   
-    
+  text-align: center;
+  background: blue;
+  padding: 50px;
+  color: yellowgreen;
 }
-
-
-
-
-
-
-
-
-
-
-
