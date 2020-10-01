@@ -1,71 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to the most extraordinary hotel in Boston Massachusetts">
-    <meta name="keywords" content="hotel,boston hotel,new hotel,holiday,discount">
-    <script src="https://kit.fontawesome.com/f7869ab055.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" media="screen and (max-width:1024px)" href="./styles/mobile(under 1024px).css">
-    <title>Hotel BT | Welcome</title>
-</head>
-<body>
-    <header>
-        <nav id="navbar">
-            <div class="container">
-                <h1 class="logo"><a href="index.html">AVOT</a></h1>
-                <ul>-
-                    <li><a class="current" href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the most extraordinary hotel in Boston Massachusetts"
+    />
+    <meta
+      name="keywords"
+      content="hotel,boston hotel,new hotel,holiday,discount"
+    />
+    <script
+      src="https://kit.fontawesome.com/f7869ab055.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1024px)"
+      href="./styles/mobile(under 1024px).css"
+    />
 
-        <div id="showcase">
-            <div class="container">
-                <div class="showcase-content">
-                    <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
-                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptates nobis quos totam eligendi, ab eos vel debitis necessitatibus eaque.</p>
-                    <a class="btn" href="about.html">About Our Hotel</a>
-                </div>
-            </div>
+    <title>Hotel BT | Welcome</title>
+  </head>
+  <body>
+    <header>
+      <!-- <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">AVOT</a></h1>
+          <ul>
+            -
+            <li><a class="current" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
+      </nav> -->
+      <!-- added by reckon -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"
+          ><h1 class="logo">
+            <a href="index.html" style="color: whitesmoke">AVOT</a>
+          </h1></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- added by reckon -->
+      <div id="showcase">
+        <div class="container">
+          <div class="showcase-content">
+            <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+              voluptates nobis quos totam eligendi, ab eos vel debitis
+              necessitatibus eaque.
+            </p>
+            <a class="btn btn-primary" href="about.html">About Our Hotel</a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <section id="home-info" class="bg-dark">
-        <div class="info-img"></div>
-        <div class="info-content">
-            <h2><span class="text-primary">The History</span> Of Our Hotel</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique ducimus, labore nam obcaecati perferendis dolorum possimus laudantium autem laborum commodi consequatur repellendus veritatis voluptas facere deserunt nobis repudiandae! Laboriosam tempora ea eligendi explicabo alias. Odit ratione minus vel incidunt delectus aut unde corrupti architecto tenetur!
-            </p><br>
-            <a class="btn btn-light" href="about.html">Read More</a>
-        </div>
+      <div class="info-img"></div>
+      <div class="info-content">
+        <h2><span class="text-primary">The History</span> Of Our Hotel</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique
+          ducimus, labore nam obcaecati perferendis dolorum possimus laudantium
+          autem laborum commodi consequatur repellendus veritatis voluptas
+          facere deserunt nobis repudiandae! Laboriosam tempora ea eligendi
+          explicabo alias. Odit ratione minus vel incidunt delectus aut unde
+          corrupti architecto tenetur!
+        </p>
+        <br />
+        <a class="btn btn-light" href="about.html">Read More</a>
+      </div>
     </section>
 
     <section id="features">
-        <div class="box bg-light">
-            <i class="fas fa-hotel fa-3x"></i>
-            <h3>Great Location</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quasi!</p>
-        </div>
-        <div class="box bg-primary">
-            <i class="fas fa-utensils fa-3x"></i>
-            <h3>Free Food</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quasi!</p> 
-        </div>
-        <div class="box bg-light">
-            <i class="fas fa-dumbbell fa-3x"></i>
-            <h3>Fitness Room</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quasi!</p>
-        </div>
+      <div class="box bg-light">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h3>Great Location</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          quasi!
+        </p>
+      </div>
+      <div class="box bg-primary">
+        <i class="fas fa-utensils fa-3x"></i>
+        <h3>Free Food</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          quasi!
+        </p>
+      </div>
+      <div class="box bg-light">
+        <i class="fas fa-dumbbell fa-3x"></i>
+        <h3>Fitness Room</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          quasi!
+        </p>
+      </div>
     </section>
 
     <footer id="main-footer" class="clear">
-        <p>Hotel BT &copy; 2020, All Rights Reserved<br>
-           Created By Akash Chetia </p>
+      <p>
+        Hotel BT &copy; 2020, All Rights Reserved<br />
+        Created By Akash Chetia
+      </p>
     </footer>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
